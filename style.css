@@ -1,0 +1,402 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0; padding:0;}
+ul li{list-style:none;}
+a{
+	text-decoration:none;
+	color:#000;
+}
+
+body{
+	display:flex; 
+	flex-direction:column; 
+	background:#f5f5f5;
+	}
+/*头部*/
+header{
+	width:100vw;
+	
+	
+	}
+.header_top{
+	width:100vw;  
+}
+.search{
+	flex-direction:row;
+	height:8vh;
+	min-width:100%;
+	position:fixed;
+	background:#CCC;
+	opacity:0.7;
+}
+.navimg{
+	width:15vw;
+	height:8vh;
+	float:left;
+	
+}
+.navimg img{
+	min-width:80%;
+	max-height:95%;
+	margin-top:0.3vh;
+	margin-left:1vw;
+}
+.adress{
+	float:left;
+	width:15vw;
+	height:4vh;
+	margin-top:1.5vh; 
+}
+span{
+	font-size:2.5vh;
+}
+.sousuo{
+	width:35vw;
+	height:5vh;
+	float:left;
+	font-size:1.8vh;
+	line-height:5vh;
+	border-radius:12px;
+	margin-top:1.0vh;
+	background:#FFF;
+}
+.zhonglei{
+    width:10vw;
+	font-size: 8.5vh;
+	margin-left: 85vw;
+	margin-top: -20vw;
+	float:left;
+}
+.zhonglei img{
+	max-width:90%;
+	min-height:5%;
+	
+}
+
+.header_bg{
+	width:100vw;
+	height:auto;
+}
+.header_bg img{
+	width:100vw;
+	
+}
+/*商品菜单*/
+.center{
+	height:40%; 
+	width:100%;
+	background:#FFF; overflow: hidden;
+	}
+.center1{
+	height:50%; 
+	width:100%; 
+	display:flex; 
+	flex-direction:row; 
+	justify-content:center; 
+	align-items:center;
+	
+	}
+.one{
+	width:18%; 
+	display:block; 
+	text-align:center;
+	}
+.imgs img{
+	width:68%; 
+	height:80%;
+	}
+.word{
+	font-size:2.0vh;
+	}
+.center2{
+	height:50%; 
+	width:100%;  
+	display:flex; 
+	flex-direction:row; 
+	justify-content:center; 
+	align-items:center;
+	}
+/*抢购热点*/
+.redian{
+	width:95vw;
+	height:5vh;
+	border:1px solid #999;
+	border-radius:5vh;
+	display: block;
+	margin:8% auto;
+}
+.logo{
+	width:20vw;
+	height:4vh;
+	float:left;
+	margin-left:4vw;
+	line-height:9vh;
+}
+.logo img{
+	width:18vw;
+	height:4vh;
+	
+}
+.logo_word{
+	max-width:50vw;
+	max-height:4vh;
+	float:left;
+	color:#212121;
+    font-size:2.0vh;
+	position:absolute;
+	line-height:5vh;
+	left:35vw;
+}
+section{
+	width:100vw;
+		
+}
+/*抢购倒计时*/
+.qianggou{
+	width:100vw;
+	height:37vh;
+	background:#f5f8fb;
+}
+.rush_head{
+	width:100vw;
+	height:6vh;	
+}
+.head_tu{
+	width:25vw;
+	height:5vh;
+    font-size:2.0vh;
+	
+	margin-top:86vh;
+	line-height:6vh;
+	
+}
+.push_time{
+	width:35%;
+	float:right;
+	margin-top: -6%;
+	margin-right: 10%;
+}
+.push_time img{
+	min-width:70%;
+	max-height:100%;
+}
+.qianggou-list{
+	width:100vw;
+	height:30vh;	
+}
+.qianggou-list_page{
+	width:23vw;
+	height:28vh;
+	margin:0 0.5vw;
+	float:left;
+	background:#f5f8fb;	
+}
+#qiang_price{
+	text-align:center; 
+	color:#ff3c25;
+	font-size:2.5vh;
+	margin:2vh 8vw;
+}
+#qiang_price1{
+	color:#bbb;
+	font-size:2.0vh;
+	float:left;
+	margin-left:2vw;
+	padding-top: -4%;	
+}
+#qiang_price2{
+	float:left;
+	color:#bbb;
+	font-size:2.0vh;
+	padding-top: -3%;
+}
+/*购实惠*/
+.shihui{
+	width:100vw;
+}
+.shihui_head{
+	width:100vw;
+    font-size:2.5vh;
+	text-align:center;
+	background:#FFF;
+}
+
+.bottom{
+	width:100vw;
+	height:50vh; 
+	 } 
+.bottom_left{
+	width:100%; 
+	height:40%;
+	}
+.bottom_left1{
+	width:49%; 
+	height:93%; 
+	background:#FFF; 
+	margin:2px;
+	float:left; 
+	}
+.bottom_left1 img{
+	width:48%; 
+	height:70%; 
+	margin-left:52%; 
+	margin-top:10%; display:block; 
+	}
+.bottom_word{
+	width:60%; 
+	height:80%; 
+	float: left; 
+	margin-top:-30%; 
+	overflow: hidden; 
+	margin-left:4%;
+	}
+.word1{
+	font-size:2.5vh;
+	line-height: 40px;
+	color: #212121; 
+	font-weight: normal;
+	}
+.word2{
+	height: 30px;
+	font-size: 1.8vh;
+	line-height: 10px;
+	color: #b1483f;
+	margin-top:25px;
+	}
+/*购品质*/
+.pinzhi{
+	width:100vw;
+}
+.pinzhi_head{
+	width:100vw;
+    font-size:2.5vh;
+	text-align:center;
+	background:#FFF;
+}
+.pinzhi_left1{
+	width:48%; 
+	height:93%; 
+	background:#ebf0f4; 
+	margin:3px;
+	float:left; 
+	}
+.pinzhi_left1 img{
+	width:48%; 
+	height:70%; 
+	margin-left:52%; 
+	margin-top:5%; 
+	}
+.pinzhi_word1{
+	height: 38px;
+	max-width:60%;
+	font-size: 1.8vh;
+	color: #b1483f;
+	margin-top:25px;
+	text-align:center;
+	border:1px solid #b1483f;
+}
+
+.section_page_shu{
+	width:32%; 
+	height:120%; 
+	background:#ebf0f4;
+	margin:3px;
+	float:left; 
+	}
+.section_page_shu img{
+	max-width:80%; 
+	min-height:50%;  
+	margin-top:12%;
+	margin-left:10%; 
+	}
+.pinzhi_page{
+	width:30%%; 
+	height:25%;
+	display:block;  
+	margin-top:3vh;  
+	 
+	}
+.pinzhi_word2{
+	font-size:2.5vh;
+	color: #212121;
+	margin-left:9vw; 
+	font-weight: normal;
+	}
+.pinzhi_word3{
+	height: 37px;
+	width:65%;
+	font-size: 1.8vh;
+	color: #b1483f;
+	text-align:center;
+	margin:0 auto;
+	border:1px solid #b1483f;
+	}
+/*推荐好货*/
+.tuijian{
+	width:100vw;
+}
+.tuijian_head{
+	width:100vw;
+    font-size:2.5vh;
+	text-align:center;
+	background:#FFF;
+}
+
+.section_tuijian_shu{
+	width:32%; 
+	height:120%; 
+	background:#FFF; 
+	margin:3px;
+	float:left; 
+	}
+.section_tuijian_shu img{
+	max-width:80%; 
+	max-height:55%;
+	margin-left:6vw;
+	margin-top:3vh; 
+}
+.tuijian_page{
+	width:60%; 
+	height:80%; 
+	float: left; 
+	margin-top:1vw; 
+	margin-left:1vw;  
+	}
+
+.tuijian_word1{
+	width:30vw;
+	height: 70px;
+	font-size: 2.0vh;
+	color:#212121;
+	text-align:center;
+	}
+/*尾部*/
+footer{
+	height:10%;
+	width:100%;
+	position:fixed;
+	bottom:0%;
+	background:#FFF;
+}
+.more1{	
+    width:90%;
+	height:100%;
+	display:flex; 
+	flex-direction:row; 
+	justify-content:space-around; 
+	align-items:center;
+	}
+.more1 ul li{
+	width:18%; 
+	height:100%;  
+	float:left;
+	}
+.more1 li img{
+	width:130%; 
+	height:120%; 
+	display:block; 
+	text-align:center; 
+	}
+
+	

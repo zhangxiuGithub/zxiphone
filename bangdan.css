@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0; width:100%;
+height:100%;}
+ul li{list-style:none;}
+a{
+	text-decoration:none;
+	color:#000;
+}
+header{
+	width:100%;
+	height:10%;
+}
+
+.fanhui{
+	width:15%;
+	height:90%;
+	font-size:5.5vh;
+	color:#000;
+}
+h1{
+	max-width: 30%;
+    max-height: 70%;
+    margin: -12% auto;  
+}
+
+section{
+	width:100%;
+	height:90%;
+	overflow:auto;
+}
+.page{
+	width:100%;
+	height:40%;
+}
+.page_top{
+	width:100%;
+	height:45%;
+	color:#000;
+	background:url(../img/bangdan_bg.jpg) no-repeat;
+	background-size:100% 100%;
+}
+.word1{
+	width:23%;
+	height:30%;
+	border-bottom:1px solid #FFF; 
+	font-size:3.0vh; 
+	margin:5% auto;
+	text-align:center;
+}
+.word2{
+	width:55%; 
+	height:15%;
+	font-size:1.6vh; 
+    margin:-4% auto;
+	text-align:center;
+}
+	
+
+.sort{
+	width:20%;
+	height:18%;
+	font-size:1.8vh;
+	margin:5% auto;
+	text-align:center; 
+	border-radius:8px;
+}
+
+.page_bottom{
+	width:100%;
+	height:55%;
+}
+.page_bottom_list{
+	width:22%;
+	height:100%;
+	float:left;
+	margin:0 1%; 
+}
+.page_bottom_list img{
+	max-width:100%;
+	max-height:60%;
+}
+.page_word1{
+	width:96%;
+	height:15%;
+	font-size:0.2vh;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap; 
+}
+.page_word2{
+	width:60%;
+	height:15%;
+	margin:0 auto;
+	color:#F63; 
+}
+.fuhao{
+	font-size:1.0vh;
+}
